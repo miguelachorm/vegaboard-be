@@ -5,7 +5,7 @@
             "app": "SWIFT",
             "services": [
                 {
-                    "service": "ConsumerService",
+                    "service": "ConsumerServ",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -65,7 +65,7 @@
                     ]
                 },
                 {
-                    "service": "SwiftCommandService",
+                    "service": "SwiftService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -121,7 +121,7 @@
                     ]
                 },
                 {
-                    "service": "DeskService",
+                    "service": "DeskSer",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -181,7 +181,7 @@
                     ]
                 },
                 {
-                    "service": "HubcastProvisioningService",
+                    "service": "HubcastService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -241,7 +241,7 @@
                     ]
                 },
                 {
-                    "service": "LightningAlertService",
+                    "service": "LightningService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -301,7 +301,7 @@
                     ]
                 },
                 {
-                    "service": "RAIMService",
+                    "service": "Service",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -361,7 +361,7 @@
                     ]
                 },
                 {
-                    "service": "RegionOutageRaimService",
+                    "service": "RegionRaimService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -422,7 +422,7 @@
                     ]
                 },
                 {
-                    "service": "RelayService",
+                    "service": "RelService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -482,7 +482,7 @@
                     ]
                 },
                 {
-                    "service": "RoutingService",
+                    "service": "RouteService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -543,7 +543,7 @@
                     ]
                 },
                 {
-                    "service": "ShiftLogService",
+                    "service": "ShiftService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -604,7 +604,7 @@
                     ]
                 },
                 {
-                    "service": "StationAreaRaimService",
+                    "service": "StationRaimService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -664,7 +664,7 @@
                     ]
                 },
                 {
-                    "service": "SwiftScheduleLoader",
+                    "service": "SwiftSchedule",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -720,7 +720,7 @@
                     ]
                 },
                 {
-                    "service": "SwindsReceiver",
+                    "service": "SwindReceiver",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -781,7 +781,7 @@
                     ]
                 },
                 {
-                    "service": "TestRelayService",
+                    "service": "TesRelayService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1204,7 +1204,7 @@
                     ]
                 },
                 {
-                    "service": "FlightPlanIngest",
+                    "service": "FlightIngest",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1322,7 +1322,7 @@
                     ]
                 },
                 {
-                    "service": "AircraftPositionReportSvc",
+                    "service": "AircraftReportSvc",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1383,7 +1383,7 @@
                     ]
                 },
                 {
-                    "service": "SwiftDmiAdapter",
+                    "service": "SwiftAdapter",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1444,7 +1444,7 @@
                     ]
                 },
                 {
-                    "service": "SwiftOsdsAdapterService",
+                    "service": "SwiftOsdsService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1505,7 +1505,7 @@
                     ]
                 },
                 {
-                    "service": "WSIDataSvc",
+                    "service": "WSISvc",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1566,7 +1566,7 @@
                     ]
                 },
                 {
-                    "service": "WxPacketScheduler",
+                    "service": "WxScheduler",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1627,7 +1627,7 @@
                     ]
                 },
                 {
-                    "service":  "FlightInitializationService",
+                    "service":  "FlightService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1688,7 +1688,7 @@
                     ]
                 },
                 {
-                    "service": "SwiftFlightPlanPublisher",
+                    "service": "FlightPlanPublisher",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1749,7 +1749,7 @@
                     ]
                 },
                 {
-                    "service": "FAAInboundJMSAdapter",
+                    "service": "InboundJMSAdapter",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1809,7 +1809,7 @@
                     ]
                 },
                 {
-                    "service": "SwiftEventPublisher",
+                    "service": "Swift2Publisher",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1870,7 +1870,7 @@
                     ]
                 },
                 {
-                    "service": "SwiftRetriever",
+                    "service": "Swift2Retriever",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1931,7 +1931,7 @@
                     ]
                 },
                 {
-                    "service": "SwiftRVRAdapter",
+                    "service": "Swift2RVRAdapter",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -1992,7 +1992,7 @@
                     ]
                 },
                 {
-                    "service": "PerformanceService",
+                    "service": "PerformancePtService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -2053,7 +2053,7 @@
                     ]
                 },
                 {
-                    "service": "SwiftPerformanceAdapter",
+                    "service": "SwiftPerformAdapter",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -2114,7 +2114,7 @@
                     ]
                 },
                 {
-                    "service": "PerformanceAdapter",
+                    "service": "Performance2Adapter",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -2175,7 +2175,7 @@
                     ]
                 },
                 {
-                    "service": "SwiftPerformanceService",
+                    "service": "SwiftPerformanceToService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -2236,7 +2236,7 @@
                     ]
                 },
                 {
-                    "service": "RunwayQualityChecker",
+                    "service": "RunwayQualityToChecker",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -2297,7 +2297,7 @@
                     ]
                 },
                 {
-                    "service": "SwiftPaxCountsService",
+                    "service": "SwiftPaxCountsToService",
                     "hangers": [
                         {
                             "hanger": "QA1",
@@ -2357,7 +2357,7 @@
                     ]
                 },
                 {
-                    "service": "DispatchRouteService",
+                    "service": "DispatchService",
                     "hangers": [
                         {
                             "hanger": "QA1",

@@ -3,10 +3,10 @@ const request = require("request");
 
 //Database connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'password',
-    database: 'dashboard',
+    host: '',
+    user: '',
+    password: '',
+    database: '',
     insecureAuth: true
 });
 

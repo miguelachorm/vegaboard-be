@@ -4,9 +4,9 @@ const data = require('./ServiceInfo.json');
 //Database connection
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: 'password',
-    database: 'dashboard',
+    user: '',
+    password: '',
+    database: '',
     insecureAuth: true
 });
 
